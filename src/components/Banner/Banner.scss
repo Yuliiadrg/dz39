@@ -1,0 +1,10 @@
+@import "../../Styles/variables.scss";
+.banner {
+    grid-area: b;
+    background: $bg-color;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,25 @@
+@import '../../Styles/variables.scss';
+
+.sectionAside {
+    margin-bottom: 20px;
+    border: 5px solid $bg-aside-section;
+    border-radius: 50%;
+    padding: $cover-padding;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background: $bg-aside-section;
+    }
+
+    &__text {
+        font-size: xx-large;
+        color: $text-color;
+
+        &:hover {
+            color: white;
+        }
+    }
+}

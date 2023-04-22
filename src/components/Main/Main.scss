@@ -1,0 +1,15 @@
+@import '../../Styles/variables.scss';
+
+.content {
+    grid-area: c;
+    background: $bg-color;
+    padding: $cover-padding;
+    
+    &__title {
+      text-align: center;
+      color: $text-color;
+      font-size: xx-large;
+      font-weight: 900;
+      margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,18 @@
+@import "../../Styles/variables.scss";
+
+.header {
+  grid-area: h;
+  background: $bg-color;
+  padding: $cover-padding;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  nav>ul {
+    list-style: none;
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+    align-items: center;
+  }
+}

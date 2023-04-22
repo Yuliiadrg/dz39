@@ -1,0 +1,17 @@
+@import "./variables";
+
+@mixin grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 48px 560px 1260px 160px;
+    grid-template-areas: 
+    "h h h "
+    "b b b "
+    "c c a"
+    "f f f";
+    grid-gap: 19px;
+    max-width: 1177px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 19px;
+}
